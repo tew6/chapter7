@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Enter Comment for Commit
+
+read commentInput
+
+git add .
+git commit -m "$commentInput"
+git push origin master
